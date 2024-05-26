@@ -60,7 +60,7 @@ const Consumer = () => {
     try {
       const web3 = window.web3;
       const networkId = await web3.eth.net.getId();
-      const deployedNetworkId = "0x56b49b09BCF650E0D74ac7e2e8e315e7b1926a51"; // Your network ID
+      const deployedNetworkId = "0x56b49b09BCF650E0D74ac7e2e8e315e7b1926a51"; 
 const deployedNetwork = ProductVerificationABI.networks[deployedNetworkId];
 
 if (!deployedNetwork) {
@@ -69,7 +69,7 @@ if (!deployedNetwork) {
   return;
 }
 
-// Continue with your code to interact with the contract using deployedNetwork
+
 
       const contract = new web3.eth.Contract(
         ProductVerificationABI.abi,
