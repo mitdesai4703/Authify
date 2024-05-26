@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "@truffle/hdwallet-provider": "^2.1.15",
+    "html2canvas": "^1.4.1",
+    "jspdf": "^2.5.1",
+    "qrcode.react": "^3.1.0",
+    "react-hook-form": "^7.51.5",
+    "web3": "^4.8.0"
+  }
+}
